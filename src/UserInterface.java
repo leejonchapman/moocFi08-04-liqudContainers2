@@ -18,6 +18,7 @@ public class UserInterface {
             System.out.println("Second: " + second);
 
             String uI = scanner.nextLine();
+
             if (uI.equals("add")) {
                 int uIAmount = scanner.nextInt();
                 first.add(uIAmount);
