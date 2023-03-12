@@ -2,6 +2,7 @@ public class Container {
     int volume;
 
     public Container() {
+        this.volume = 0;
     }
 
     public int contains() {
